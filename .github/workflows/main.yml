@@ -28,9 +28,9 @@ jobs:
                        model=${{ matrix.model }} \
                        name="Cruel-v4.2_2021.06.12"         \
                        toolchain=$TOOLCHAIN      \
-                       mass_storage              \
+                       +mass_storage              \
                        sched_+powersave          \
-                       always_enforce            \
+                       +always_enforce            \
                        +magisk                   \
                        +nohardening              \
                        +ttl                      \
